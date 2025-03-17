@@ -25,7 +25,7 @@ export const About = () => {
 
             <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
                 <p className="text-gray-300 mb-6">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur officiis nobis rerum in atque dolorum minima esse aut natus totam accusamus, numquam a tenetur quos velit maiores tempore sit cupiditate?
+                   I am currently a college student pursuing a Bachelor of Science in Computer Science. Alongside my studies, I am passionate about photography and graphic design, using my creativity to capture and create compelling visuals. My skills in both tech and art allow me to approach projects with a unique and innovative perspective.
                 </p>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -60,6 +60,9 @@ export const About = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
                 <div className="p-6 rounded-xl border-whiter/10 border hover:-translate-y-1 transition-all">
                     <h3 className="text-xl font-bold mb-4">🏫 Education</h3>
+                    <ul>
+
+                    </ul>
                 </div>
 
                 <div className="p-6 rounded-xl border-whiter/10 border hover:-translate-y-1 transition-all">
