@@ -8,7 +8,7 @@ export const Home = () => {
             </h1>
 
             <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto ">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis in sit nam provident quas exercitationem soluta adipisci ex minus error, perspiciatis minima blanditiis excepturi quae amet rerum consequatur odio qui!
+                I am currently a college student pursuing a Bachelor of Science in Computer Science. Alongside my studies, I am passionate about photography and graphic design, using my creativity to capture and create compelling visuals. My skills in both tech and art allow me to approach projects with a unique and innovative perspective.
             </p>
 
             <div className="flex justify-center space-x-4">

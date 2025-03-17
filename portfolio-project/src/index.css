@@ -1,10 +1,16 @@
 @import "tailwindcss";
 
+/* .vt323-regular {
+  font-family: "VT323", monospace;
+  font-weight: 400;
+  font-style: normal;
+} */
+ 
 html,
 body {
   margin: 0;
   padding: 0;
-  font-family: "Space Grotesk", sans-serif;
+  font-family:"VT323", monospace;
   background: black;
   columns: #f3f4f6;
 }

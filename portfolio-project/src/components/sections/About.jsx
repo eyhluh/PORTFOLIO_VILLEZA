@@ -4,27 +4,27 @@ export const About = () => {
         "React", 
         "Typescript", 
         "TailswindCSS",
-        "1",
-        "2",
-        "3",
+        "React",
+        "Typescript",
+        "TailswindCSS",
     ];
 
     const backendSkills = [
         "Node.js", 
         "Python",
-        "1",
-        "2",
-        "3",
-        "4",
+        "Node.js", 
+        "Python",
+        "Node.js",
+        "Python",
     ];
 
     return (
-    <section id="about" className="min--screen flex items-center justify-center py-20">
+    <section id="about" className="min-h-screen flex items-center justify-center py-20">
         <div className="max-w-3xl mx-auto px-4">
             <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">About Me</h2>
 
             <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
-                <p className="text-gray-300 mb-6">
+                <p className="text-gray-300 mb-6 text-justify">
                    I am currently a college student pursuing a Bachelor of Science in Computer Science. Alongside my studies, I am passionate about photography and graphic design, using my creativity to capture and create compelling visuals. My skills in both tech and art allow me to approach projects with a unique and innovative perspective.
                 </p>
 
@@ -55,18 +55,39 @@ export const About = () => {
                 </div>
             </div>
 
-
+{/* text-justify */}
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
-                <div className="p-6 rounded-xl border-whiter/10 border hover:-translate-y-1 transition-all">
+                <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
                     <h3 className="text-xl font-bold mb-4">🏫 Education</h3>
-                    <ul>
-
+                    <ul className="list-disc list-inside text-gray-300 space-y-2 text-justify">
+                        <li>
+                            <strong>Bachelor of Computer Science</strong> - Filamer Christian University (2021 - 2026)
+                        </li>
+                        <li>
+                            <strong>High School</strong> - Filamer Christian University (2016 - 2020)
+                        </li>
+                        <li>
+                            <strong>Elementary</strong> - Filamer Christian University (2009 - 2016)
+                        </li>
                     </ul>
                 </div>
 
-                <div className="p-6 rounded-xl border-whiter/10 border hover:-translate-y-1 transition-all">
-                    <h3 className="text-xl font-bold mb-4">💼 Work Experience</h3>
+                <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+                    <h3 className="text-xl font-bold mb-4">💼 Experience</h3>
+                    <div className="space-y-4 text-gray-300 text-justify">
+                        <div>
+                            <h4 className="font-semibold">FCU CCS FITC Organization</h4>
+                            <p className="">Documented various events at FCU, capturing memorable moments through photography and creating engaging promotional materials. Managed the organization’s online presence by sharing event highlights and updates on social media.</p>
+                        </div>
+
+                        <div>
+                            <h4 className="font-semibold">Student Organizations</h4>
+                            <p className="">Active member of the Filamerian Information Technology Circle (FIT-C), focusing on photography. I documented various events, capturing memorable moments through photography and managing the organization’s online presence by sharing event highlights and updates on social media.</p>
+                        </div>
+
+
+                    </div>
                 </div>
 
 
@@ -75,3 +96,5 @@ export const About = () => {
     </section>
     );
 };
+
+// **FCU CCS FITC Organization:** Documented various events at FCU, capturing memorable moments through photography and creating engaging promotional materials. Managed the organization’s online presence by sharing event highlights and updates on social media.  xcvbxvbxv
