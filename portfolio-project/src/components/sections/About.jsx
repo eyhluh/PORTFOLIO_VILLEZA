@@ -76,7 +76,7 @@ export const About = () => {
                     </ul>
                 </div>
 
-                <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+                <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all border hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
                     <h3 className="text-xl font-bold mb-4">💡Experience</h3>
                     <div className="space-y-4 text-gray-300 text-justify">
                         <div>
