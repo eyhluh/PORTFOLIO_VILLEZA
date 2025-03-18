@@ -4,20 +4,20 @@ export const About = () => {
 
     const frontendSkills = [
         "React", 
-        "Typescript", 
+        "HTML", 
         "TailswindCSS",
-        "React",
-        "Typescript",
-        "TailswindCSS",
+        "CSS",
+        "JavaScript",
+        "ReactJS",
+        "Bootsrap",
+        "ReactJS",
     ];
 
     const backendSkills = [
         "Node.js", 
         "Python",
-        "Node.js", 
-        "Python",
-        "Node.js",
-        "Python",
+        "Django", 
+        "PHP",
     ];
 
     return (
@@ -100,5 +100,3 @@ export const About = () => {
     </section>
     );
 };
-
-// **FCU CCS FITC Organization:** Documented various events at FCU, capturing memorable moments through photography and creating engaging promotional materials. Managed the organization’s online presence by sharing event highlights and updates on social media.  xcvbxvbxv
