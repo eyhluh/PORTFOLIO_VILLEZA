@@ -3,7 +3,7 @@ import {RevealOnScroll} from "../RevealOnScroll"
 export const Projects = () => {
 
     return (
-        <section id="projects" className="min-h-screen flex items-center justify-center py-20">
+        <section id="projects" className="min-h-screen flex items-center justify-center py-20 text-black">
 
             <RevealOnScroll>
             <div className="max-w-5xl mx-auto px-4">
@@ -12,7 +12,7 @@ export const Projects = () => {
 {/* 1 */}
                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition text-justify"> 
                         <h3 className="text-xl-bold mb-2">Laravel</h3>
-                        <p className="text-gray-400 mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, similique ab. Eveniet placeat totam doloremque adipisci, eligendi unde neque, consectetur, accusamus voluptates earum incidunt ipsa sed ex aliquid esse. Quis!</p>
+                        <p className="text-black mb-3"></p>
                         <div className="flex flex-wrap gap-2 bb-4">
                             {["Blade","PHP", "CSS", "JavaScript"].map((tech, key)=> (
                                 <span key={key} 
@@ -31,7 +31,7 @@ export const Projects = () => {
 {/* 2 */}
                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition text-justify"> 
                         <h3 className="text-xl-bold mb-2">React App</h3>
-                        <p className="text-gray-400 mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, similique ab. Eveniet placeat totam doloremque adipisci, eligendi unde neque, consectetur, accusamus voluptates earum incidunt ipsa sed ex aliquid esse. Quis!</p>
+                        <p className="text-black mb-3"></p>
                         <div className="flex flex-wrap gap-2 bb-4">
                             {["TypeScipt", "HTML"].map((tech, key)=> (
                                 <span key={key} 
@@ -50,7 +50,7 @@ export const Projects = () => {
 {/* 3 */}
                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition text-justify"> 
                         <h3 className="text-xl-bold mb-2">Laravel 2</h3>
-                        <p className="text-gray-400 mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, similique ab. Eveniet placeat totam doloremque adipisci, eligendi unde neque, consectetur, accusamus voluptates earum incidunt ipsa sed ex aliquid esse. Quis!</p>
+                        <p className="text-black mb-3"></p>
                         <div className="flex flex-wrap gap-2 bb-4">
                             {["PHP", "Blade"].map((tech, key)=> (
                                 <span key={key} 
@@ -69,7 +69,7 @@ export const Projects = () => {
 {/* 4 */}
                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition text-justify"> 
                         <h3 className="text-xl-bold mb-2">React</h3>
-                        <p className="text-gray-400 mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, similique ab. Eveniet placeat totam doloremque adipisci, eligendi unde neque, consectetur, accusamus voluptates earum incidunt ipsa sed ex aliquid esse. Quis!</p>
+                        <p className="text-black mb-3"></p>
                         <div className="flex flex-wrap gap-2 bb-4">
                             {["JavaScript", "CSS", "HTML"].map((tech, key)=> (
                                 <span key={key} 
